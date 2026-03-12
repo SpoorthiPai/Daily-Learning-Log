@@ -1,0 +1,44 @@
+-- Hosts are any device which sends or recieve traffic - computer, laptops, phones, printers, servers , cloud server, any IoT devices
+   Clients and Servers
+   ~initiate requests, ~Servers Respond
+
+-- IP Address - is the identity of each host
+   these are 32 bits
+   Bit = 1 or 0
+   Represented as four Octets
+   Each Octet can be 0-255
+
+-- Repeaters regenerate signals
+   allow communications across greater distances
+
+-- Hubs r simply multi-port repeaters
+   Facilitates scaling communication b/w additional hosts
+   everyone receives everyone else's data
+
+-- Bridge sit b/w hub-connected hosts
+   Bridges only have two ports
+   Bridges lear which hosts are on each side
+
+-- Switches facilitate communication within a network
+   they r a combn of hubs and bridges
+   - mulktiple ports
+   - learns which hosts r on each port
+   Hosts on a network share the same IP address space
+
+-- Routers facilitate communication b/w networks
+   Provides a traffic control pouint ( security, filtering, redirecting)
+   traditionally, switches could not perform such filtering
+   - Gateway - each hosts way out of their local network eg ip add - 172.16.20.33, default gateway - 172.16.20.1
+
+-- Diffrenece
+  routing is the process of moving data between netwroks
+  switching is the process of moving data withing networks
+
+-- OSI MODEL
+  -- Layer 1 - Physical - Transporting Bits
+     Computer data exists in the form of bits ( 1's and 0's)
+     something has to transport these bits b/w hosts
+     L1 technologies : cables, wifi, repeaters, hubs 
+  -- Layer 2 - Data Link
+               
+
