@@ -1,0 +1,12 @@
+Cloud computing basics - 
+- Iaas - Infrastructure as a service, Gives full control over infra resources such as virtual machine/storage etc, You must take care of all the Admin tasks such as patching, upgrades, backups.Pay-per-use, EC2, VM, GCE
+Ideal choice for life and shift migration and legacy application.
+- Paas - Platform as a service, give runtime environment/platform to deploy application and development tools, Azure takes care of all the admin tasks including automated backups
+Pay-per-service model, Azure web app,Ideal choice where customer doesn't want to take care of Admin tasks
+- Saas - Software as a service, gives application access to the end users, Azure takes care of all the admin tasks.
+Pay-per-subscription model, 0365, Gmail, Dropbox etc, Ideal choice where customer can use the standard version of a cloud application.
+
+- Public Cloud: Resources are shared among multiple users, owned by third-party providers like AWS or Azure, and operate on a pay-as-you-go basis with low upfront costs.
+- Private Cloud: Dedicated entirely to a single organization, offering enhanced control and security but requiring high upfront investment for hardware.
+- Hybrid Cloud: Combines public and private clouds, allowing organizations to securely manage sensitive data on-premises while leveraging public cloud scalability for other needs
+
