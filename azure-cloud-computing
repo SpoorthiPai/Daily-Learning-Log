@@ -1,16 +1,16 @@
-Cloud computing basics - 
-- Iaas = Infrastructure as a service, Gives full control over infra resources such as virtual machine/storage etc, You must take care of all the Admin tasks such as patching, upgrades, backups.Pay-per-use, EC2, VM, GCE
+------Cloud computing basics - 
+------- Iaas = Infrastructure as a service, Gives full control over infra resources such as virtual machine/storage etc, You must take care of all the Admin tasks such as patching, upgrades, backups.Pay-per-use, EC2, VM, GCE
 Ideal choice for life and shift migration and legacy application.
-- Paas = Platform as a service, give runtime environment/platform to deploy application and development tools, Azure takes care of all the admin tasks including automated backups
+------- Paas = Platform as a service, give runtime environment/platform to deploy application and development tools, Azure takes care of all the admin tasks including automated backups
 Pay-per-service model, Azure web app,Ideal choice where customer doesn't want to take care of Admin tasks
-- Saas = Software as a service, gives application access to the end users, Azure takes care of all the admin tasks.
+------- Saas = Software as a service, gives application access to the end users, Azure takes care of all the admin tasks.
 Pay-per-subscription model, 0365, Gmail, Dropbox etc, Ideal choice where customer can use the standard version of a cloud application.
 
-- Public Cloud: Resources are shared among multiple users, owned by third-party providers like AWS or Azure, and operate on a pay-as-you-go basis with low upfront costs.
-- Private Cloud: Dedicated entirely to a single organization, offering enhanced control and security but requiring high upfront investment for hardware.
-- Hybrid Cloud: Combines public and private clouds, allowing organizations to securely manage sensitive data on-premises while leveraging public cloud scalability for other needs
+------- Public Cloud: Resources are shared among multiple users, owned by third-party providers like AWS or Azure, and operate on a pay-as-you-go basis with low upfront costs.
+------- Private Cloud: Dedicated entirely to a single organization, offering enhanced control and security but requiring high upfront investment for hardware.
+------- Hybrid Cloud: Combines public and private clouds, allowing organizations to securely manage sensitive data on-premises while leveraging public cloud scalability for other needs
 
-vocabulary
+------vocabulary
 virtualization     =  the technology that allows one physical computer to run multiple virtual computers (called virtual machines) simultaneously. each virtual machines behaves like a separte, independate computer. this is the foundation of cloud computing.
 virtual machines   = a software based computer that runs ona physucal host computer. it has its own operating system, cpu, memory, and storage, but shares the underlying physical hardware. you can create, delete, resize vms in seconds on the cloud.
 api                = application programming interface. A set of rules and protocols that allows different software applications to communicate with each other. In cloud computing api's let your app talk to the cloud services(like requestingstorage or starting a VM) without knowing their internal details, like a waiter in a restaurant you give the order(request to the waiter(api) and the kitchen(cloud service) prepares it for you.
@@ -26,22 +26,51 @@ Load Balancing     = the process of distributing incoming network traffic evenly
 
 why datacentres at different regions?- because of latency and downtime, there should not be latency and downtime.
 
-Iaas ex in azure - vm, networking, storage
-paas - mysql(databases), app service
-saas - outlook(email service) 
+------Iaas ex in azure - vm, networking, storage
+------paas - mysql(databases), app service
+------saas - outlook(email service) 
 
-Resource =  a resource is an instance of a service
+------Resource =  a resource is an instance of a service
 
---azure resource manager(ARM) = Azure Resource Manager (ARM) is an automated service — a deployment and management layer, It acts as the central control plane for Microsoft Azure, acting as an orchestrator that validates, secures, and executes requests to create, update, or delete resources (like virtual machines, databases, and networks) in your Azure account.
+------azure resource manager(ARM) = Azure Resource Manager (ARM) is an automated service — a deployment and management layer, It acts as the central control plane for Microsoft Azure, acting as an orchestrator that validates, secures, and executes requests to create, update, or delete resources (like virtual machines, databases, and networks) in your Azure account.
 
-Resource Group =help in many way
+------Resource Group =help in many way
                 1) mandatory in azure
                 2) adds many capabilities, access, deny, monitor, secure, policies, billing etc
                 in large companies many have different azure accounts for deifferent departments in that case just name the resource group with ur project name ex- payment, so different departments have their own payment resource group
                 if small startups which has only one azure account overall just name it payment-dev, payment-QA, payment-prod.
 
+------SSH (Secure Shell) is a cryptographic network protocol used to securely access, control, and transfer files between computers over unsecured networks.
 
+------Jenkins is an open-source CI/CD automation tool used to automate software building, testing, and deployment processes. It helps automate workflows such as integrating code from GitHub, running tests, and deploying applications to servers or cloud platforms like Azure and AWS.
+------ CI = Continuous Integration
+Means:
+developers continuously add code changes to a shared repository (like GitHub).
+When code is pushed:
+app builds automatically
+tests run automatically
+issues are detected early
 
+------- CD = Continuous Deployment / Delivery
+Means:
+after testing,
+the application gets:
+deployed automatically
+OR
+prepared for deployment
+to:
+cloud
+servers
+production environment
 
-
-
+                                                                   Developer writes code
+                                                                             ↓
+                                                                     Pushes to GitHub
+                                                                             ↓
+                                                                 CI/CD tool detects changes
+                                                                             ↓
+                                                                    Builds application
+                                                                             ↓
+                                                                        Runs tests
+                                                                             ↓
+                                                                 Deploys to Azure/AWS/server
