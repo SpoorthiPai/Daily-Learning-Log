@@ -74,8 +74,8 @@ Cloud Infrastructure Monitoring & Automation System
 
 ## Connect With Me
 
-LinkedIn: [Add your LinkedIn URL]
-GitHub: [Add your GitHub URL]
+LinkedIn: www.linkedin.com/in/spoorthi-pai
+GitHub: https://github.com/SpoorthiPai 
 
 ---
 
