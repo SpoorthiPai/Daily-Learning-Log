@@ -21,18 +21,6 @@ This repository documents my daily learning journey in Cloud Computing, Infrastr
 * Improve troubleshooting and system administration knowledge
 * Become industry-ready for Cloud, Infrastructure, Operations, and Security roles
 
-## Repository Structure
-
-```text
-Azure/
-Linux/
-Networking/
-Cybersecurity/
-Shell-Scripting/
-Projects/
-Notes/
-```
-
 ## Learning Approach
 
 * Consistent daily learning
@@ -60,17 +48,6 @@ Cloud Infrastructure Monitoring & Automation System
 * Python
 * Networking Tools
 * Docker (Learning)
-
-## Progress Tracker
-
-* [ ] Azure Fundamentals
-* [ ] Linux Administration
-* [ ] Networking Fundamentals
-* [ ] Shell Scripting
-* [ ] Monitoring & Logging
-* [ ] Cloud Project Deployment
-* [ ] Automation Scripts
-* [ ] Interview Preparation
 
 ## Connect With Me
 
