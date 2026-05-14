@@ -1,9 +1,9 @@
 Cloud computing basics - 
-- Iaas - Infrastructure as a service, Gives full control over infra resources such as virtual machine/storage etc, You must take care of all the Admin tasks such as patching, upgrades, backups.Pay-per-use, EC2, VM, GCE
+- Iaas = Infrastructure as a service, Gives full control over infra resources such as virtual machine/storage etc, You must take care of all the Admin tasks such as patching, upgrades, backups.Pay-per-use, EC2, VM, GCE
 Ideal choice for life and shift migration and legacy application.
-- Paas - Platform as a service, give runtime environment/platform to deploy application and development tools, Azure takes care of all the admin tasks including automated backups
+- Paas = Platform as a service, give runtime environment/platform to deploy application and development tools, Azure takes care of all the admin tasks including automated backups
 Pay-per-service model, Azure web app,Ideal choice where customer doesn't want to take care of Admin tasks
-- Saas - Software as a service, gives application access to the end users, Azure takes care of all the admin tasks.
+- Saas = Software as a service, gives application access to the end users, Azure takes care of all the admin tasks.
 Pay-per-subscription model, 0365, Gmail, Dropbox etc, Ideal choice where customer can use the standard version of a cloud application.
 
 - Public Cloud: Resources are shared among multiple users, owned by third-party providers like AWS or Azure, and operate on a pay-as-you-go basis with low upfront costs.
@@ -23,4 +23,25 @@ High availablility = A design approach that ensures a systrm remains operational
 Fault tolerance    = The ability of a system to continue operating correctly even when one or more of its components fail. Unlike high availability(which minimizes downtime), fault tolerance means zero downtime - the system works even during a failure.
 Disaster recovery  = a set of policies and procedures to recover data and restore systems after a catastrophic event ( fire, cyberattack, natural disaster). In the cloud, this involves backing up data in different regions and having a plan to restore services quickly.
 Load Balancing     = the process of distributing incoming network traffic evenly across multiple servers so no single server is overwhelmed. This improves responsiveness and availability. A load balanves sits in front of your servers and routes requests intelligently.
+
+why datacentres at different regions?- because of latency and downtime, there should not be latency and downtime.
+
+Iaas ex in azure - vm, networking, storage
+paas - mysql(databases), app service
+saas - outlook(email service) 
+
+Resource =  a resource is an instance of a service
+
+--azure resource manager(ARM) = Azure Resource Manager (ARM) is an automated service — a deployment and management layer, It acts as the central control plane for Microsoft Azure, acting as an orchestrator that validates, secures, and executes requests to create, update, or delete resources (like virtual machines, databases, and networks) in your Azure account.
+
+Resource Group =help in many way
+                1) mandatory in azure
+                2) adds many capabilities, access, deny, monitor, secure, policies, billing etc
+                in large companies many have different azure accounts for deifferent departments in that case just name the resource group with ur project name ex- payment, so different departments have their own payment resource group
+                if small startups which has only one azure account overall just name it payment-dev, payment-QA, payment-prod.
+
+
+
+
+
 
