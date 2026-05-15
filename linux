@@ -1,0 +1,16 @@
+------opensource(most secure) + free = Huge demand for companies
+
+------Linux  ==           CLI(shell)
+                  System Utilities/libraries
+                Kernel (interacts with hardware)
+                            | | |
+                          Hardware
+
+-------Even just with kernel and cli we can operate 
+
+------- Linux Distributions - Ubuntu, Red Hat, Alpine, etc
+
+-------- to work on linux on windows install wsl and in cmd prompt run wsl and the linux like environment is ready.
+
+--------using package managers we can install, upgrade, delete and maintain packages on linux ( packages like python, java, etc)
+        command = apt(ubuntu)
