@@ -1,25 +1,16 @@
 # Daily Learning Log 🚀
 
-This repository documents my daily learning journey in Cloud Computing, Infrastructure, Networking, Linux, and Cybersecurity as I prepare for roles in Cloud Engineering, Infrastructure Operations, and Security Operations.
+This repository documents my daily learning journey in Cloud Computing, Infrastructure, Software Testing, Networking, Linux, and Security as I prepare for roles IT.
 
 ## Current Focus Areas
-
-* Microsoft Azure
-* Linux Administration
+* QA Manual Testing
+* Linux 
 * Computer Networking
-* Cloud Infrastructure
+* Cloud Computing
 * Cybersecurity Fundamentals
-* Shell Scripting
 * Git & GitHub
-* Monitoring & Automation
+* Basic Automation
 * Troubleshooting
-
-## Goals
-
-* Build strong practical skills in cloud and infrastructure technologies
-* Develop hands-on projects and automation scripts
-* Improve troubleshooting and system administration knowledge
-* Become industry-ready for Cloud, Infrastructure, Operations, and Security roles
 
 ## Learning Approach
 
@@ -28,26 +19,6 @@ This repository documents my daily learning journey in Cloud Computing, Infrastr
 * Building real-world projects
 * Documenting concepts and commands
 * Practicing interview-focused topics
-
-## Current Project
-
-Cloud Infrastructure Monitoring & Automation System
-
-* Azure Virtual Machines
-* Linux Monitoring
-* Automated Alerts
-* Logging & Troubleshooting
-* Shell/Python Automation
-
-## Tools & Technologies
-
-* Microsoft Azure
-* Linux
-* Git & GitHub
-* Bash/Shell Scripting
-* Python
-* Networking Tools
-* Docker (Learning)
 
 ## Connect With Me
 
